@@ -1,0 +1,229 @@
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  font-size: 24px;
+}
+header nav ul li:hover {
+  cursor: pointer;
+  color: #AE7B3C;
+}
+header nav ul li i {
+  color: #AE7B3C;
+}
+header nav .phone i {
+  color: #3D4A39;
+}
+header nav .phone p {
+  color: #3D4A39;
+}
+header nav .menu {
+  display: none;
+}
+
+.head {
+  margin: 0 auto;
+  background-image: url(../images/header/bg.svg);
+  width: 1600px;
+  height: 687px;
+  position: relative;
+}
+.head .parda {
+  width: 1600px;
+  height: 687px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85));
+}
+.head .parda h1 {
+  margin: 0 auto;
+  width: 446px;
+  height: 134px;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 56px;
+  color: white;
+}
+.head .parda p {
+  width: 537px;
+  height: 81px;
+  color: white;
+  font-size: 18px;
+  margin: 2px auto 0px auto;
+  text-align: center;
+}
+.head .parda button {
+  margin-top: 50px;
+  width: 260px;
+  height: 60px;
+  background-color: #AE7B3C;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+.head .parda button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #AE7B3C;
+  border: 2px solid #AE7B3C;
+  border-radius: 8px;
+}
+
+.species div h2 {
+  text-align: center;
+  margin-top: 140px;
+  font-size: 46px;
+}
+.species div ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+.species div ul li {
+  width: 363px;
+  height: 500px;
+}
+.species div ul li p {
+  font-size: 24px;
+  color: #636a54;
+}
+.species div ul li h4 {
+  font-size: 24px;
+  margin-top: 60px;
+  color: #636a54;
+}
+
+.icon {
+  background-color: #3D4A39;
+  width: 1600px;
+  height: 688px;
+  margin-top: 140px;
+}
+.icon h2 {
+  text-align: center;
+  font-size: 46px;
+  color: white;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+.icon ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+.icon ul i {
+  color: white;
+  font-size: 66px;
+}
+.icon ul p {
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  .species ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .species ul li {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .icon ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon ul li {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    width: 900px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  nav {
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    height: 50px;
+  }
+  nav .icons li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav .navbar {
+    display: none;
+  }
+  nav .menu {
+    display: block;
+  }
+  .species {
+    width: 100%;
+    height: 687px;
+  }
+}
+.project {
+  position: relative;
+}
+.project .post {
+  width: 1600px;
+  height: 440px;
+  position: absolute;
+}
+.project .post .right {
+  position: absolute;
+  right: 0px;
+  bottom: 90px;
+}
+.project h2 {
+  width: 814px;
+  height: 141px;
+  text-align: center;
+  margin: 140px auto 0px auto;
+  font-size: 36px;
+}
+.project ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.project ul li {
+  display: flex;
+}
+.project ul li img {
+  margin-bottom: 90px;
+  margin-right: 15px;
+}
+.project ul li p {
+  width: 370px;
+  height: 108px;
+  font-size: 22px;
+}/*# sourceMappingURL=menu.css.map */
